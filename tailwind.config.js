@@ -17,7 +17,8 @@ module.exports = {
         "gray-bg": "#2B2B2B",
         "my-link": "#376ebe",
         "body-bg": "#F6F7F7",
-        "deep-text-gray": "#333333"
+        "deep-text-gray": "#333333",
+        "footer-bg": "#333333"
       },
     },
     container: {
