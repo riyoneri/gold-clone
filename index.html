@@ -244,8 +244,8 @@
     <section class="container grid grid-cols-4 gap-5 px-5 md:px-20 mt-16">
         <div class="bg-cover bg-center cursor-pointer bg-blend-overlay col-span-2 h-[160%] hover:bg-black hover:bg-opacity-30 transition duration-300"
             style="background-image: url(assets/images/image05.png);"></div>
-<div
-    class="bg-white col-start-1 col-span-2 xl:col-span-1 xl:col-start-3 px-5 group py-2 flex flex-col justify-between relative">
+        <div
+            class="bg-white col-start-1 col-span-2 xl:col-span-1 xl:col-start-3 px-5 group py-2 flex flex-col justify-between relative">
             <a href="#" class="absolute w-full h-full"></a>
             <div>
                 <p class="mt-10 text-center font-main-semibold">Study at Goldsmiths</p>
@@ -348,11 +348,28 @@
         </div>
     </section>
 
-    <section class="container mt-20 grid gap-5 md:grid-cols-2 lg:grid-cols-4 px-32">
-        <div class="col-span-2 bg-cover bg-no-repeat bg-center relative h-[350px] bg-blend-overlay group hover:bg-black hover:bg-opacity-30 transition duration-300"
+    <section class="container mt-20 grid gap-5 md:grid-cols-2 lg:grid-cols-4 px-5 md:px-32">
+        <div class="col-span-2 md:row-span-1 bg-cover bg-no-repeat bg-center relative h-[350px] bg-blend-overlay group hover:bg-black hover:bg-opacity-30 transition duration-300"
             style="background-image: url(assets/images/image08.jpg);">
             <a href="#" class="w-full h-full absolute"></a>
-            <div class="flex flex-col justify-between bg-white py-5 px-10 absolute w-1/2 right-0 bottom-5 h-1/2">
+            <div
+                class="md:flex hidden flex-col justify-between bg-white py-5 px-10 absolute w-1/2 right-0 bottom-5 h-1/2">
+                <p class="text-center font-main-medium">
+                    Clothing patent research reveals hidden history of women’s sport
+                </p>
+                <div class="grid gap-2">
+                    <hr>
+                    <div class="flex items-center justify-between">
+                        <span
+                            class="font-main-medium text-sm text-my-link transition group-hover:text-hover-brown">Politics
+                            of Patents</span>
+                        <img src="assets/images/icon-more-666.svg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="flex flex-col md:hidden justify-between bg-white py-5 px-10 w-[95%] relative mx-auto right-0 h-1/2 top-[80%]">
                 <p class="text-center font-main-medium">
                     Clothing patent research reveals hidden history of women’s sport
                 </p>
@@ -368,7 +385,8 @@
             </div>
         </div>
 
-        <div class="bg-white px-5 group col-span-2 md:col-span-1 py-2 flex flex-col justify-between relative">
+        <div
+            class="bg-white px-5 group col-span-2 md:col-span-1 mt-32 md:mt-0 py-2 flex flex-col justify-between relative">
             <a href="#" class="absolute w-full h-full"></a>
             <div>
                 <p class="mt-10 text-center font-main-semibold">Independent antisemitism inquiry</p>
@@ -376,27 +394,34 @@
                     We’re working to understand the experiences of our Jewish students and staff.
                 </p>
             </div>
-            <div class="flex items-center justify-between">
-                <span class="font-main-medium text-sm text-my-link transition group-hover:text-hover-brown">Inquiry
-                    information</span>
-                <img src="assets/images/icon-more-666.svg" alt="">
+
+            <div class="grid gap-2 mt-10 md:mt-0">
+                <hr>
+                <div class="flex items-center justify-between">
+                    <span class="font-main-medium text-sm text-my-link transition group-hover:text-hover-brown">Inquiry
+                        information</span>
+                    <img src="assets/images/icon-more-666.svg" alt="">
+                </div>
             </div>
         </div>
 
         <div class="group grid grid-rows-2 col-span-2 md:col-span-1 relative">
             <a href="#" class="absolute w-full h-full"></a>
-            <div class="h-full w-full bg-cover bg-center bg-no-repeat bg-blend-overlay
+            <div class="h-[200px] md:h-full w-full bg-cover bg-center bg-no-repeat bg-blend-overlay
     group-hover:bg-black group-hover:bg-opacity-30 transition duration-300"
                 style="background-image: url(assets/images/image09.jpg);">
             </div>
             <div class="bg-white -mt-3 w-11/12 mx-auto flex flex-col justify-between px-5">
                 <p class="text-center font-main-semibold mt-5">Unruly Bodies, 13 women and non-binary artists explore
                     the experience of embodiment today</p>
-                <div class="flex items-center justify-between">
-                    <span
-                        class="font-main-medium text-sm text-my-link transition group-hover:text-hover-brown">Goldsmiths
-                        CCA</span>
-                    <img src="assets/images/icon-more-666.svg" alt="">
+                <div class="grid gap-2 md:mt-0">
+                    <hr>
+                    <div class="flex items-center justify-between">
+                        <span
+                            class="font-main-medium text-sm text-my-link transition group-hover:text-hover-brown">Goldsmiths
+                            CCA</span>
+                        <img src="assets/images/icon-more-666.svg" alt="">
+                    </div>
                 </div>
             </div>
         </div>
@@ -410,10 +435,13 @@
             <div class="bg-white -mt-3 w-11/12 mx-auto flex flex-col justify-between px-5">
                 <p class="text-center font-main-semibold mt-5">Goldsmiths to help lead national arts education programme
                 </p>
-                <div class="flex items-center justify-between">
-                    <span
-                        class="font-main-medium text-sm text-my-link transition group-hover:text-hover-brown">Artsmark</span>
-                    <img src="assets/images/icon-more-666.svg" alt="">
+                <div class="grid gap-2 md:mt-0">
+                    <hr>
+                    <div class="flex items-center justify-between">
+                        <span
+                            class="font-main-medium text-sm text-my-link transition group-hover:text-hover-brown">Artsmark</span>
+                        <img src="assets/images/icon-more-666.svg" alt="">
+                    </div>
                 </div>
             </div>
         </div>
@@ -428,10 +456,15 @@
                 <p class="text-center font-main-semibold mt-5">Degree Shows 2023, celebrating the best creative work
                     from
                     Goldsmiths students</p>
-                <div class="flex items-center justify-between">
-                    <span class="font-main-medium text-sm text-my-link transition group-hover:text-hover-brown">Degree
-                        shows</span>
-                    <img src="assets/images/icon-more-666.svg" alt="">
+
+                <div class="grid gap-2 md:mt-0">
+                    <hr>
+                    <div class="flex items-center justify-between">
+                        <span
+                            class="font-main-medium text-sm text-my-link transition group-hover:text-hover-brown">Degree
+                            shows</span>
+                        <img src="assets/images/icon-more-666.svg" alt="">
+                    </div>
                 </div>
             </div>
         </div>
@@ -439,7 +472,7 @@
         <div class="col-span-2 bg-cover bg-no-repeat bg-center relative h-[350px] bg-blend-overlay group hover:bg-black hover:bg-opacity-30 transition duration-300"
             style="background-image: url(assets/images/image12.jpg);">
             <a href="#" class="w-full h-full absolute"></a>
-            <div class="flex flex-col justify-between bg-white py-5 px-10 absolute w-1/2 right-0 bottom-5 h-1/2">
+            <div class="md:flex hidden flex-col justify-between bg-white py-5 px-10 absolute w-1/2 right-0 bottom-5 h-1/2">
                 <p class="text-center font-main-medium">Join our alumni community for exclusive benefits and
                     opportunities
                 </p>
@@ -449,6 +482,22 @@
                         <span class="font-main-medium text-sm text-my-link transition group-hover:text-hover-brown">Keep
                             in
                             touch</span>
+                        <img src="assets/images/icon-more-666.svg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="flex flex-col md:hidden justify-between bg-white py-5 px-10 w-[95%] relative mx-auto right-0 h-1/2 top-[80%]">
+                <p class="text-center font-main-medium">
+                    Join our alumni community for exclusive benefits and
+                    opportunities
+                </p>
+                <div class="grid gap-2">
+                    <hr>
+                    <div class="flex items-center justify-between">
+                        <span class="font-main-medium text-sm text-my-link transition group-hover:text-hover-brown">Keep
+                            in touch</span>
                         <img src="assets/images/icon-more-666.svg" alt="">
                     </div>
                 </div>
@@ -483,7 +532,7 @@ group-hover:bg-black group-hover:bg-opacity-30 transition duration-300"
                         Economist awarded top academic prize</p>
                     <p class="text-deep-text-gray font-main-medium text-center mt-2">1 Jun 2023</p>
                 </div>
-                
+
                 <div class="grid lg:hidden">
                     <span class="text-center font-main-semibold text-deep-text-gray text-2xl">Events</span>
                 </div>
