@@ -303,7 +303,7 @@
         <div class="col-span-4 row-start-5 sm:row-start-4 xl:row-start-2 xl:col-span-2 bg-cover bg-center bg-blend-overlay group hover:bg-black hover:bg-opacity-30 transition duration-300 bg-no-repeat relative h-[400px]"
             style="background-image: url(assets/images/image06.jpg);">
             <a href="#" class="w-full h-full absolute"></a>
-            <div class="flex flex-col justify-between bg-white py-5 px-10 absolute w-1/2 right-0 bottom-5 h-2/3">
+            <div class="md:flex hidden flex-col justify-between bg-white py-5 px-10 absolute w-1/2 right-0 bottom-5 h-2/3">
                 <p class="text-center font-main-medium">Many of our short courses are available via live distance
                     learning, so you can continue to learn online.</p>
                 <div class="grid gap-2">
@@ -312,6 +312,22 @@
                         <span
                             class="font-main-medium text-sm text-my-link transition group-hover:text-hover-brown">About
                             Goldsmiths</span>
+                        <img src="assets/images/icon-more-666.svg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="flex flex-col md:hidden justify-between bg-white py-5 px-10 w-[95%] relative mx-auto right-0 h-1/2 top-[80%]">
+                <p class="text-center font-main-medium">
+                    Many of our short courses are available via live distance
+                    learning, so you can continue to learn online.
+                </p>
+                <div class="grid gap-2">
+                    <hr>
+                    <div class="flex items-center justify-between">
+                        <span class="font-main-medium text-sm text-my-link transition group-hover:text-hover-brown">About
+                        Goldsmiths</span>
                         <img src="assets/images/icon-more-666.svg" alt="">
                     </div>
                 </div>
@@ -326,7 +342,7 @@
         </div>
         <div class="flex flex-1 flex-col gap-5">
             <p>Search</p>
-            <div>
+            <div class="flex flex-wrap gap-5">
                 <span>
                     <input type="radio" checked name="category" id="">
                     <span>Degree</span>
@@ -340,8 +356,8 @@
                     <span>Website</span>
                 </span>
             </div>
-            <div class="flex gap-5">
-                <input type="text" name="" id="" class="flex-1 p-5 border border-gray-bg cursor-pointer">
+            <div class="flex p-2 md:gap-5">
+                <input type="text" name="" id="" class="flex-1 p-1 md:p-5 border border-gray-bg cursor-pointer">
                 <span class="flex flex-col border-[1px] border-neutral-500">
                     <button class="bg-my-yellow px-10 py-2 text-sm flex-1">Search</button>
                     <span class="h-[0.3rem] w-full bg-neutral-500"></span>

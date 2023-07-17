@@ -915,6 +915,10 @@ video {
   flex-direction: column;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 .items-center {
   align-items: center;
 }
@@ -1053,6 +1057,14 @@ video {
 
 .p-5 {
   padding: 1.25rem;
+}
+
+.p-1 {
+  padding: 0.25rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
 }
 
 .px-10 {
@@ -1404,8 +1416,16 @@ video {
     justify-content: flex-end;
   }
 
+  .md\:gap-5 {
+    gap: 1.25rem;
+  }
+
   .md\:bg-cover {
     background-size: cover;
+  }
+
+  .md\:p-5 {
+    padding: 1.25rem;
   }
 
   .md\:px-20 {
