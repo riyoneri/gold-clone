@@ -638,6 +638,14 @@ video {
   grid-row-start: 3;
 }
 
+.row-start-4 {
+  grid-row-start: 4;
+}
+
+.row-start-5 {
+  grid-row-start: 5;
+}
+
 .row-end-3 {
   grid-row-end: 3;
 }
@@ -695,6 +703,14 @@ video {
 
 .mt-6 {
   margin-top: 1.5rem;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
+.mt-14 {
+  margin-top: 3.5rem;
 }
 
 .inline {
@@ -783,6 +799,10 @@ video {
 
 .h-\[100px\] {
   height: 100px;
+}
+
+.h-\[100\%\] {
+  height: 100%;
 }
 
 .w-1\/2 {
@@ -939,6 +959,10 @@ video {
   align-self: flex-end;
 }
 
+.whitespace-nowrap {
+  white-space: nowrap;
+}
+
 .border {
   border-width: 1px;
 }
@@ -1084,6 +1108,16 @@ video {
 .py-7 {
   padding-top: 1.75rem;
   padding-bottom: 1.75rem;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .pl-10 {
@@ -1268,6 +1302,26 @@ video {
 }
 
 @media (min-width: 640px) {
+  .sm\:col-span-2 {
+    grid-column: span 2 / span 2;
+  }
+
+  .sm\:col-start-3 {
+    grid-column-start: 3;
+  }
+
+  .sm\:row-start-1 {
+    grid-row-start: 1;
+  }
+
+  .sm\:row-start-4 {
+    grid-row-start: 4;
+  }
+
+  .sm\:mt-0 {
+    margin-top: 0px;
+  }
+
   .sm\:h-\[400px\] {
     height: 400px;
   }
@@ -1326,6 +1380,10 @@ video {
     height: 100%;
   }
 
+  .md\:w-1\/5 {
+    width: 20%;
+  }
+
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1360,14 +1418,27 @@ video {
     padding-right: 8rem;
   }
 
+  .md\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
   .md\:pr-10 {
     padding-right: 2.5rem;
   }
 }
 
 @media (min-width: 1024px) {
+  .lg\:col-span-2 {
+    grid-column: span 2 / span 2;
+  }
+
   .lg\:col-start-3 {
     grid-column-start: 3;
+  }
+
+  .lg\:row-start-1 {
+    grid-row-start: 1;
   }
 
   .lg\:inline {
@@ -1380,6 +1451,10 @@ video {
 
   .lg\:h-\[200px\] {
     height: 200px;
+  }
+
+  .lg\:h-\[160\%\] {
+    height: 160%;
   }
 
   .lg\:grid-cols-4 {
@@ -1400,6 +1475,11 @@ video {
 
   .lg\:gap-5 {
     gap: 1.25rem;
+  }
+
+  .lg\:py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
   }
 
   .lg\:text-\[15px\] {
